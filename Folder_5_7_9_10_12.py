@@ -105,15 +105,17 @@
 #Writing a python script that reads a csv file and prints the average temperature every 10 secs
 # First install pandas with pandas
 # A collection of modules --> Package
-import os
-import sys
-import time
-import pandas as pd
+# import os
+# import sys
+# import time
+# import pandas as pd
+#
+# while True:
+#   if os.path.exists('/home/spacey/Projects_with_Python/temps_today.csv'):
+#       data = pd.read_csv('/home/spacey/Projects_with_Python/temps_today.csv')
+#       print(data.mean())
+#   else:
+#      print("File does not exist. please make sure file exists")
+#   time.sleep(10)
 
-while True:
-  if os.path.exists('/home/spacey/Projects_with_Python/temps_today.csv'):
-      data = pd.read_csv('/home/spacey/Projects_with_Python/temps_today.csv')
-      print(data.mean())
-  else:
-     print("File does not exist. please make sure file exists")
-  time.sleep(10)
+
